@@ -1,0 +1,278 @@
+
+ 
+* {
+    margin:0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+    
+ }
+ 
+html{
+    background-color: #e5e5e9;
+}
+
+ul{
+list-style: none;
+}
+a {
+    text-decoration: none;
+}
+header{
+   background-color:  #5e5e5f;
+}
+header ul{
+    padding-right:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header ul li, a { 
+  color: rgba(206, 205, 205, 0.945);
+  font-size: 16px;
+}
+header ul li:hover a{
+    color:rgb(255, 255, 255);
+    
+    
+}
+
+
+.place-boby{
+    background-color: #e5e5e9;
+}
+
+.tieude{
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+}
+
+.phone-list{
+    margin: 32px;
+
+    
+}
+.ipadlist{
+    margin: 32px;
+    
+}
+.Maclist{
+    margin:32px;
+}
+.Airpodlist{
+    margin:32px;
+}
+.Watchlist{
+    margin:32px
+}
+.PKlist{
+    margin:32px;
+}
+.blog{
+    margin:32px;
+    padding: 30px;
+}
+.phone1{
+    float: left;
+    width: 25%;
+    padding: 25px;
+    
+   
+}
+
+.blog1{
+    float: left;
+    width: 33%;
+    padding: 25px;
+    box-sizing: border-box;
+   
+}
+.imgblog{
+    
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.place-img{
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+
+}
+.place-img:hover{
+    opacity: 0.6;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 10%;
+    padding: 50px 100px;
+    background: #1D1D1F ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+footer .container .noi-dung{
+    margin-right: 30px;
+}
+footer  .container .noi-dung.about{
+    width:40%;
+}
+footer .container .noi-dung.about h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+footer .container .noi-dung.about h2:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+footer .container .noi-dung.about p{
+    color: rgb(194, 189, 189);
+}
+
+.links h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.links h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.links h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.links{
+   position: relative;
+   width: 25%;
+}
+.links ul li{
+    list-style: none;
+}
+.links ul li a{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.links ul li a:hover{
+    color: #fff;
+}
+.contact h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.contact h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.contact{
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+.contact .info{
+    position: relative;
+}
+.contact .info li{
+    display: flex;
+    margin-bottom: 16px;
+}
+.contact .info li span:nth-child(1) {
+    color: #fff;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.contact .info li span{
+    color: #999;
+}
+.contact .info li a{
+    color: #999;
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin-top:16px;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+.btn--primary {
+    background: #222;
+    color: #fff;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    padding: 8px 24px;
+}
+.btn--primary:hover {
+    background: #f00;
+}
+.btn--primary:active {
+    background: #f00;
+    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .2);
+}
+.form__field {
+    width: 90%;
+    background: #fff;
+    color: #a3a3a3;
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+    border: 0;
+    outline: 0;
+    padding: 8px 4px;
+}
+@media  (max-width: 768px){
+    footer{
+        padding: 40px;
+             }
+    footer .container{
+        flex-direction: column;
+    }
+    footer .container .noi-dung{
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    footer .container, .noi-dung.about, .links, .contact{
+        width: 100%;
+    }
+}
